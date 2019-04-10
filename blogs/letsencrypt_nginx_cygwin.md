@@ -4,7 +4,7 @@
 
 编写日期：2019.04.10
 
-**注意：如果采用Cygwin版本的nginx，在指定证书路径时，需要使用不同风格的路径**
+**注意：如果采用Cygwin版本的nginx，在指定证书路径时，需要使用不同风格的路径。实际上如果服务器一定是Windows，那么用Cygwin的nginx应该是更好的选择。**
 
 ## 安装certbot
 
@@ -48,6 +48,8 @@ server {
         ......
 }
 ```
+
+**这里用/etc/letsencrypt下的archive目录而没有用live目录，是因为Windows版的nginx不支持读取Cygwin下的符号链接。在更新证书以后，上述三条路径需要更新。**
 
 ## 用crontab来定时更新 Lets Encrypt的证书
 
