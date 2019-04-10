@@ -51,4 +51,8 @@ server {
 
 ## 用crontab来定时更新 Lets Encrypt的证书
 
-因为Lets Encrypt的证书只有3个月有效期。
+因为Lets Encrypt的证书只有3个月有效期。运行`crontab -e`，输入如下内容，实现每隔3个月，8号凌晨一点半更新证书：
+
+```
+30 01 08 */3 * /usr/bin/certbot renew
+```
