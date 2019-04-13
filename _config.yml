@@ -8,12 +8,12 @@ subtitle: 信息和数据服务提供商
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-# url: "https://username.github.io"
-# baseurl: ""
+url: "https://username.github.io"
+baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-url: "https://github.com/point-circle/point-circle.github.io"
-baseurl: "https://github.com/point-circle/point-circle.github.io"
+# url: "https://github.com/point-circle/point-circle.github.io"
+# baseurl: "https://github.com/point-circle/point-circle.github.io"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
