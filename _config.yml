@@ -27,6 +27,7 @@ baseurl: ""
 
 # List of links in the navigation bar
 navbar-links:
+  首页: "https://point-circle.com"
   Blog: "https://point-circle.com/blogs/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -63,7 +64,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: 遵义点圈软件有限公司
+  name: © 遵义点圈软件有限公司
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
